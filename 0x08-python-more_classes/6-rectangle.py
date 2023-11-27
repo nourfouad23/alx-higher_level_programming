@@ -13,6 +13,7 @@ class Rectangle:
             width (int): The rect width 
             height (int): The rect height
         """
+        Rectangle.number_of_instances += 1
         self.width = width
         self.height = height
 
