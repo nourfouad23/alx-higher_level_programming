@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-''' a list
+''' Module: 1-my_list
 '''
 
 
 class MyList(list):
-    ''' Shows a list
+    ''' Represents a MyList
     '''
 
     def print_sorted(self):
         '''
-        sort a list and print it
+        prints the list, but sorted
         '''
         print(sorted(self))
